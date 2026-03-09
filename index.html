@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasar Mahmood — Java Developer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div id="cur"></div>
+  <div id="cur-r"></div>
+
+  <!-- ── NAV ── -->
+  <nav id="nav">
+    <a href="#hero" class="logo">
+      <span class="logo-bracket">[</span>
+      <span class="logo-name">yasar</span>
+      <span class="logo-at">@</span>
+      <span>dev</span>
+      <span class="logo-bracket">]</span>
+    </a>
+    <div class="nav-right">
+      <span class="nav-path">~<span class="seg">/portfolio</span></span>
+      <div class="status-pill"><span class="pulse"></span> Open to work</div>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="grid-bg"></div>
+    <div class="glow-orb"></div>
+    <div class="glow-orb2"></div>
+
+    <div class="hero-inner">
+      <div class="prompt-line">
+        <span class="prompt-user">yasar</span>
+        <span class="prompt-at">@</span>
+        <span class="prompt-host">localhost</span>
+        <span class="prompt-dir">~/dev</span>
+        <span class="prompt-sym">$</span>
+        <span class="prompt-cmd">whoami --full</span>
+        <span class="prompt-cursor"></span>
+      </div>
+
+      <div class="hero-name">
+        YASAR<br>
+        <span class="dim">MAH</span><span class="hl">MOOD</span>
+      </div>
+
+      <div class="hero-role">
+        <span class="tag">Java</span>
+        <span class="tag">Backend</span>
+        Software Engineer
+        <span style="margin-left:8px; color: var(--muted2);">·</span>
+        Chennai, India
+      </div>
+
+      <div class="hero-bottom">
+        <div class="hero-desc">
+          <span class="c-com">// Initialising developer profile...</span><br><br>
+          <span class="c-green">String</span> role = <span class="c-str">"Aspiring Java SDE"</span>;<br>
+          <span class="c-green">String</span> location = <span class="c-str">"Chennai, India"</span>;<br>
+          <span class="c-green">boolean</span> openToWork = <span class="c-blue">true</span>;<br><br>
+          <span class="c-com">// Currently building solid foundations in</span><br>
+          <span class="c-com">// Java backend development — learning Spring Boot,</span><br>
+          <span class="c-com">// REST APIs, and the JVM ecosystem to become</span><br>
+          <span class="c-com">// a production-ready Java engineer.</span><br><br>
+          <span class="c-green">System</span>.<span class="c-blue">out</span>.println(<span class="c-str">"Let's build something."</span>);
+        </div>
+
+        <div class="hero-btns">
+          <a href="#about"   class="hbtn"><span class="hbtn-num">01</span><span class="hbtn-label">About me</span><span class="hbtn-arrow">↓</span></a>
+          <a href="#contact" class="hbtn"><span class="hbtn-num">02</span><span class="hbtn-label">Get in touch</span><span class="hbtn-arrow">↗</span></a>
+          <a href="https://github.com/Yasar-mhd" target="_blank" class="hbtn"><span class="hbtn-num">03</span><span class="hbtn-label">GitHub profile</span><span class="hbtn-arrow">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+
+    <div class="file-header reveal">
+      <span class="fh-tab active">About.java</span>
+      <span class="fh-tab">Stack.json</span>
+      <span class="fh-dot">✕</span>
+    </div>
+
+    <div class="about-layout">
+
+      <!-- Code-style bio -->
+      <div>
+        <div class="code-block reveal d1" data-file="About.java">
+          <div><span class="ln"> 1</span> <span class="kw">package</span> <span class="nm">dev.yasar.portfolio</span><span class="op">;</span></div>
+          <div><span class="ln"> 2</span></div>
+          <div><span class="ln"> 3</span> <span class="cm">/**</span></div>
+          <div><span class="ln"> 4</span> <span class="cm">&nbsp;* Software engineer based in Chennai.</span></div>
+          <div><span class="ln"> 5</span> <span class="cm">&nbsp;* Focused on backend systems and the JVM.</span></div>
+          <div><span class="ln"> 6</span> <span class="cm">&nbsp;* Writes code that's readable first, clever second.</span></div>
+          <div><span class="ln"> 7</span> <span class="cm">&nbsp;*/</span></div>
+          <div><span class="ln"> 8</span> <span class="kw">public class</span> <span class="cl">Yasar</span> <span class="kw">implements</span> <span class="cl">Developer</span> <span class="op">{</span></div>
+          <div><span class="ln"> 9</span></div>
+          <div><span class="ln">10</span>&nbsp;&nbsp; <span class="kw">private final</span> <span class="cl">List</span><span class="op">&lt;</span><span class="cl">String</span><span class="op">&gt;</span> <span class="nm">strengths</span> <span class="op">= List.of(</span></div>
+          <div><span class="ln">11</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="st">"Strong grasp of OOP and data structures"</span><span class="op">,</span></div>
+          <div><span class="ln">12</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="st">"Comfortable across the full language stack"</span><span class="op">,</span></div>
+          <div><span class="ln">13</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="st">"Picks up new frameworks fast, ships clean code"</span></div>
+          <div><span class="ln">14</span>&nbsp;&nbsp; <span class="op">);</span></div>
+          <div><span class="ln">15</span></div>
+          <div><span class="ln">16</span>&nbsp;&nbsp; <span class="kw">public</span> <span class="cl">String</span> <span class="fn">currentFocus</span><span class="op">() {</span></div>
+          <div><span class="ln">17</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="cm">// Deep-diving Spring Boot and REST API design.</span></div>
+          <div><span class="ln">18</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="cm">// Learning how production Java systems are actually built —</span></div>
+          <div><span class="ln">19</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="cm">// not just the happy path, but error handling,</span></div>
+          <div><span class="ln">20</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="cm">// transactions, and writing code other devs can maintain.</span></div>
+          <div><span class="ln">21</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="kw">return</span> <span class="st">"backend Java engineering"</span><span class="op">;</span></div>
+          <div><span class="ln">22</span>&nbsp;&nbsp; <span class="op">}</span></div>
+          <div><span class="ln">23</span></div>
+          <div><span class="ln">24</span>&nbsp;&nbsp; <span class="kw">public boolean</span> <span class="fn">isAvailable</span><span class="op">() {</span></div>
+          <div><span class="ln">25</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="kw">return</span> <span class="cl">true</span><span class="op">;</span> <span class="cm">// open to internships &amp; junior roles</span></div>
+          <div><span class="ln">26</span>&nbsp;&nbsp; <span class="op">}</span></div>
+          <div><span class="ln">27</span> <span class="op">}</span></div>
+        </div>
+      </div>
+
+      <!-- Stack + Stats -->
+      <div>
+        <div class="reveal d1">
+          <div class="panel-header"><span class="ph-icon">▸</span> stack.json — skills &amp; roadmap</div>
+          <div class="stack-table">
+            <!-- Header row -->
+            <div class="st-row" style="background:var(--surface2); font-size:9px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted);">
+              <div class="st-cell">Skill</div>
+              <div class="st-cell">Status</div>
+              <div class="st-cell">Level</div>
+            </div>
+            <!-- Proficient -->
+            <div class="st-row"><div class="st-cell"><span class="st-icon">☕</span><span class="st-name">Java</span></div><div class="st-cell"><span class="badge badge-know">Proficient</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:75%"></div></div></div></div>
+            <div class="st-row"><div class="st-cell"><span class="st-icon">🐍</span><span class="st-name">Python</span></div><div class="st-cell"><span class="badge badge-know">Proficient</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:70%"></div></div></div></div>
+            <div class="st-row"><div class="st-cell"><span class="st-icon">🌐</span><span class="st-name">HTML &amp; CSS</span></div><div class="st-cell"><span class="badge badge-know">Proficient</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:80%"></div></div></div></div>
+            <div class="st-row"><div class="st-cell"><span class="st-icon">⚙️</span><span class="st-name">C / C++</span></div><div class="st-cell"><span class="badge badge-know">Proficient</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:65%"></div></div></div></div>
+            <!-- Learning -->
+            <div class="st-row"><div class="st-cell"><span class="st-icon">🍃</span><span class="st-name">Spring Boot</span></div><div class="st-cell"><span class="badge badge-learn">Learning</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:35%; background:var(--orange)"></div></div></div></div>
+            <div class="st-row"><div class="st-cell"><span class="st-icon">🔗</span><span class="st-name">REST APIs</span></div><div class="st-cell"><span class="badge badge-learn">Learning</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:40%; background:var(--orange)"></div></div></div></div>
+            <!-- Up Next -->
+            <div class="st-row"><div class="st-cell"><span class="st-icon">🐬</span><span class="st-name">MySQL / JPA</span></div><div class="st-cell"><span class="badge badge-rec">Up Next</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:10%; background:var(--purple)"></div></div></div></div>
+            <div class="st-row"><div class="st-cell"><span class="st-icon">🐳</span><span class="st-name">Docker</span></div><div class="st-cell"><span class="badge badge-rec">Up Next</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:5%; background:var(--purple)"></div></div></div></div>
+            <div class="st-row"><div class="st-cell"><span class="st-icon">🔀</span><span class="st-name">Git / GitHub</span></div><div class="st-cell"><span class="badge badge-rec">Up Next</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:8%; background:var(--purple)"></div></div></div></div>
+            <div class="st-row"><div class="st-cell"><span class="st-icon">🔐</span><span class="st-name">Spring Security</span></div><div class="st-cell"><span class="badge badge-rec">Up Next</span></div><div class="st-cell"><div class="st-bar"><div class="st-bar-fill" style="width:3%; background:var(--purple)"></div></div></div></div>
+          </div>
+        </div>
+
+        <div class="stats-row reveal d2">
+          <div class="stat-item">
+            <div>
+              <div class="stat-label">// Current Status</div>
+              <div style="font-size:11px;color:var(--text);margin-top:4px;letter-spacing:.04em;">Aspiring Java Backend SDE</div>
+            </div>
+            <span class="stat-val" style="font-size:14px; color:var(--accent2);">Active</span>
+          </div>
+          <div class="stat-item">
+            <div>
+              <div class="stat-label">// Location</div>
+              <div style="font-size:11px;color:var(--text);margin-top:4px;letter-spacing:.04em;">Chennai, Tamil Nadu</div>
+            </div>
+            <span style="font-size:18px;">📍</span>
+          </div>
+          <div class="stat-item">
+            <div><div class="stat-label">// Languages known</div></div>
+            <span class="stat-val">5+</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="contact-glow"></div>
+    <div class="contact-inner">
+
+      <div class="terminal-window reveal">
+        <div class="tw-bar">
+          <span class="tw-dot r"></span>
+          <span class="tw-dot y"></span>
+          <span class="tw-dot g"></span>
+          <span class="tw-title">bash — yasar@localhost</span>
+        </div>
+        <div class="tw-body">
+          <div class="tw-line"><span class="tw-ps">❯&nbsp;</span><span class="tw-out">cat <span class="tw-hl">contact.txt</span></span></div>
+          <div class="tw-line"><span class="tw-ps">&nbsp;&nbsp;</span><span class="tw-out">Name&nbsp;&nbsp;&nbsp; : <span class="tw-grn">Yasar Mahmood</span></span></div>
+          <div class="tw-line"><span class="tw-ps">&nbsp;&nbsp;</span><span class="tw-out">Role&nbsp;&nbsp;&nbsp; : <span class="tw-grn">Software Engineer (Java Backend)</span></span></div>
+          <div class="tw-line"><span class="tw-ps">&nbsp;&nbsp;</span><span class="tw-out">City&nbsp;&nbsp;&nbsp; : <span class="tw-grn">Chennai, India</span></span></div>
+          <div class="tw-line"><span class="tw-ps">&nbsp;&nbsp;</span><span class="tw-out">Email&nbsp;&nbsp; : <span class="tw-grn">yasarmahmood7x@gmail.com</span></span></div>
+          <div class="tw-line"><span class="tw-ps">&nbsp;&nbsp;</span><span class="tw-out">GitHub  : <span class="tw-hl">github.com/Yasar-mhd</span></span></div>
+          <div class="tw-line"><span class="tw-ps">&nbsp;&nbsp;</span><span class="tw-out">Status  : <span class="tw-grn">Open to internships &amp; entry-level roles</span></span></div>
+          <div class="tw-line" style="margin-top:8px;"><span class="tw-ps">❯&nbsp;</span><span class="tw-out" style="opacity:.4">█</span></div>
+        </div>
+      </div>
+
+      <div class="contact-headline reveal d1">
+        LET'S<br>
+        <span class="hl">CONNECT</span><span class="dim">.</span>
+      </div>
+
+      <p class="contact-sub reveal d2">
+        Looking for internships, entry-level Java backend roles,<br>
+        or just want to talk code — my inbox is always open.
+      </p>
+
+      <div class="social-grid reveal d3">
+        <a href="https://github.com/Yasar-mhd" target="_blank" class="soc-item">
+          <span class="soc-icon">🐙</span>
+          <span class="soc-label">GitHub</span>
+          <span class="soc-val">Yasar-mhd</span>
+        </a>
+        <a href="https://www.linkedin.com/in/yasar-mahmood007/" target="_blank" class="soc-item">
+          <span class="soc-icon">💼</span>
+          <span class="soc-label">LinkedIn</span>
+          <span class="soc-val">yasar-mahmood007</span>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="soc-item">
+          <span class="soc-icon">🐦</span>
+          <span class="soc-label">Twitter / X</span>
+          <span class="soc-val">@yasar_dev</span>
+        </a>
+        <a href="mailto:yasarmahmood7x@gmail.com" class="soc-item">
+          <span class="soc-icon">📧</span>
+          <span class="soc-label">Email</span>
+          <span class="soc-val">yasarmahmood7x@gmail.com</span>
+        </a>
+      </div>
+
+      <a href="mailto:yasarmahmood7x@gmail.com" class="email-link reveal d4">
+        <span>$ mail --to yasarmahmood7x@gmail.com</span>
+        <span class="email-arrow">↗</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <p>© 2026 <span class="f-acc">Yasar Mahmood</span> — Chennai, India</p>
+    <p>Built with HTML · CSS · JS <span class="f-acc">·</span> Open to work</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
