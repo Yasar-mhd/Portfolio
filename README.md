@@ -9,7 +9,7 @@
 
 **A dark, terminal-aesthetic developer portfolio built with pure HTML, CSS, and JavaScript.**
 
-[🌐 Live Demo](https://yasar-mhd.github.io) · [📧 Contact](mailto:yasarmahmood7x@gmail.com) · [💼 LinkedIn](https://www.linkedin.com/in/yasar-mahmood007/)
+[🌐 Live View](https://yasar-mhd.vercel.app/) · [📧 Contact](mailto:yasarmahmood7x@gmail.com) · [💼 LinkedIn](https://www.linkedin.com/in/yasar-mahmood007/)
 
 </div>
 
